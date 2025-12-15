@@ -54,5 +54,5 @@ function updateProgress() {
 
 // Navigate to the review quiz
 function goToReview() {
-    window.location.href = 'file:///Users/jairogonzales/Desktop/7th%20grade%20math/7th_grade_review/index.html';
+    window.location.href = 'https://7th-math-review.netlify.app/';
 }
