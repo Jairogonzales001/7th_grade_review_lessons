@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7th Grade Math Lessons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>7th Grade Math Lessons</h1>
+            <p class="subtitle">Learn the concepts before tackling the review!</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="topic-nav">
+            <button class="topic-btn active" data-topic="1">1. Real Numbers</button>
+            <button class="topic-btn" data-topic="2">2. Exponents</button>
+            <button class="topic-btn" data-topic="3">3. Scientific Notation</button>
+            <button class="topic-btn" data-topic="4">4. Expressions</button>
+            <button class="topic-btn" data-topic="5">5. Equations</button>
+        </nav>
+
+        <!-- Topic 1: Real Numbers -->
+        <section id="topic1" class="lesson-card active">
+            <div class="lesson-header">
+                <h2>Topic 1: Real Numbers</h2>
+                <span class="difficulty">Foundation Topic</span>
+            </div>
+
+            <div class="lesson-content">
+                <div class="concept-box">
+                    <h3>What Are Real Numbers?</h3>
+                    <p>Real numbers include ALL the numbers you can think of on the number line. They are divided into two main groups:</p>
+
+                    <div class="two-column">
+                        <div class="column">
+                            <h4>Rational Numbers</h4>
+                            <p>Numbers that CAN be written as a fraction (a/b where b is not 0)</p>
+                            <ul>
+                                <li>Integers: -3, 0, 5</li>
+                                <li>Fractions: 1/2, -3/4</li>
+                                <li>Terminating decimals: 0.5, 3.25</li>
+                                <li>Repeating decimals: 0.333..., 0.142857...</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>Irrational Numbers</h4>
+                            <p>Numbers that CANNOT be written as a fraction</p>
+                            <ul>
+                                <li>Non-repeating, non-terminating decimals</li>
+                                <li>Square roots of non-perfect squares: √2, √3, √5</li>
+                                <li>Pi (π) = 3.14159265...</li>
+                                <li>e = 2.71828...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-skill">
+                    <h3>Key Skill: Identifying Rational vs Irrational</h3>
+                    <div class="skill-steps">
+                        <div class="step">
+                            <span class="step-num">1</span>
+                            <p><strong>Check if it's a perfect square root:</strong> √4 = 2, √9 = 3, √16 = 4, √25 = 5, √36 = 6, √49 = 7, √64 = 8, √81 = 9, √100 = 10</p>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">2</span>
+                            <p><strong>If the square root is NOT a perfect square, it's irrational:</strong> √2, √3, √5, √7, √10, √11, etc.</p>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">3</span>
+                            <p><strong>Fractions and terminating/repeating decimals are ALWAYS rational</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-skill">
+                    <h3>Key Skill: Estimating Square Roots</h3>
+                    <div class="example-box">
+                        <p><strong>Example:</strong> Where is √50 on the number line?</p>
+                        <div class="solution">
+                            <p>Step 1: Find the perfect squares around 50</p>
+                            <p class="highlight">√49 = 7 and √64 = 8</p>
+                            <p>Step 2: Since 50 is between 49 and 64, √50 is between 7 and 8</p>
+                            <p>Step 3: 50 is closer to 49, so √50 ≈ 7.07</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-section">
+                    <h3>Watch & Learn</h3>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <h4>Rational vs Irrational Numbers</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/cLP7INqs3JM" title="Rational vs Irrational Numbers" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: Clear explanation of the difference between rational and irrational numbers</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Classifying Numbers</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/pO4spZ9c5rY" title="Classifying Numbers" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Learn how to classify rational and irrational numbers</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Estimating Square Roots</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/EFVrAk61xjE" title="Estimating Square Roots" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: How to estimate where a square root falls on the number line</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practice-tips">
+                    <h3>Remember!</h3>
+                    <ul>
+                        <li>Memorize your perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100</li>
+                        <li>Rational + Irrational = Irrational (e.g., 5 + √3 is irrational)</li>
+                        <li>Rational × Irrational = Irrational (usually)</li>
+                        <li>When comparing numbers, convert them to decimals first!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn disabled" disabled>Previous</button>
+                <button class="nav-btn" onclick="goToTopic(2)">Next: Exponents →</button>
+            </div>
+        </section>
+
+        <!-- Topic 2: Laws of Exponents -->
+        <section id="topic2" class="lesson-card">
+            <div class="lesson-header">
+                <h2>Topic 2: Laws of Exponents</h2>
+                <span class="difficulty">Core Skills</span>
+            </div>
+
+            <div class="lesson-content">
+                <div class="concept-box">
+                    <h3>The Exponent Rules</h3>
+                    <p>Exponents are shortcuts for repeated multiplication. Here are the rules you MUST know:</p>
+
+                    <div class="rules-grid">
+                        <div class="rule-card">
+                            <h4>Product Rule</h4>
+                            <p class="formula">x<sup>a</sup> · x<sup>b</sup> = x<sup>a+b</sup></p>
+                            <p class="example">x<sup>5</sup> · x<sup>3</sup> = x<sup>8</sup></p>
+                            <p class="tip">Same base? ADD the exponents!</p>
+                        </div>
+                        <div class="rule-card">
+                            <h4>Quotient Rule</h4>
+                            <p class="formula">x<sup>a</sup> ÷ x<sup>b</sup> = x<sup>a-b</sup></p>
+                            <p class="example">x<sup>7</sup> ÷ x<sup>4</sup> = x<sup>3</sup></p>
+                            <p class="tip">Same base? SUBTRACT the exponents!</p>
+                        </div>
+                        <div class="rule-card">
+                            <h4>Power Rule</h4>
+                            <p class="formula">(x<sup>a</sup>)<sup>b</sup> = x<sup>a·b</sup></p>
+                            <p class="example">(x<sup>3</sup>)<sup>4</sup> = x<sup>12</sup></p>
+                            <p class="tip">Power of a power? MULTIPLY exponents!</p>
+                        </div>
+                        <div class="rule-card">
+                            <h4>Power of a Product</h4>
+                            <p class="formula">(xy)<sup>a</sup> = x<sup>a</sup>y<sup>a</sup></p>
+                            <p class="example">(2y)<sup>3</sup> = 8y<sup>3</sup></p>
+                            <p class="tip">Distribute the exponent to each factor!</p>
+                        </div>
+                        <div class="rule-card">
+                            <h4>Negative Exponents</h4>
+                            <p class="formula">x<sup>-a</sup> = 1/x<sup>a</sup></p>
+                            <p class="example">5m<sup>-2</sup> = 5/m<sup>2</sup></p>
+                            <p class="tip">Negative exponent? Flip to denominator!</p>
+                        </div>
+                        <div class="rule-card">
+                            <h4>Zero Exponent</h4>
+                            <p class="formula">x<sup>0</sup> = 1</p>
+                            <p class="example">5<sup>0</sup> = 1</p>
+                            <p class="tip">Anything to the zero power equals 1!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-skill">
+                    <h3>Worked Example</h3>
+                    <div class="example-box">
+                        <p><strong>Simplify:</strong> (2y<sup>3</sup>)<sup>4</sup></p>
+                        <div class="solution">
+                            <p>Step 1: Apply power of a product rule - distribute the 4</p>
+                            <p class="highlight">= 2<sup>4</sup> · (y<sup>3</sup>)<sup>4</sup></p>
+                            <p>Step 2: Calculate 2<sup>4</sup> = 16</p>
+                            <p>Step 3: Apply power rule: (y<sup>3</sup>)<sup>4</sup> = y<sup>3×4</sup> = y<sup>12</sup></p>
+                            <p class="answer">Answer: 16y<sup>12</sup></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-section">
+                    <h3>Watch & Learn</h3>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <h4>Exponent Rules (Complete Guide)</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/kITJ6qH7jS0" title="Exponent Rules" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">The Organic Chemistry Tutor: Complete guide to all exponent rules</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Negative Exponents Explained</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/JnpqlXN9Whw" title="Negative Exponents" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: Understanding negative exponents</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Exponents Made Easy</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/XZRQhkii0h0" title="Exponents Made Easy" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Math Antics: Visual and easy-to-understand exponent basics</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practice-tips">
+                    <h3>Common Mistakes to Avoid!</h3>
+                    <ul>
+                        <li><strong>Wrong:</strong> x<sup>5</sup> · x<sup>3</sup> = x<sup>15</sup> → <strong>Right:</strong> x<sup>8</sup> (ADD, don't multiply!)</li>
+                        <li><strong>Wrong:</strong> 5m<sup>-2</sup> = 1/(5m<sup>2</sup>) → <strong>Right:</strong> 5/m<sup>2</sup> (only m has the negative exponent)</li>
+                        <li><strong>Wrong:</strong> (2y)<sup>3</sup> = 2y<sup>3</sup> → <strong>Right:</strong> 8y<sup>3</sup> (raise 2 to the power too!)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="goToTopic(1)">← Previous</button>
+                <button class="nav-btn" onclick="goToTopic(3)">Next: Scientific Notation →</button>
+            </div>
+        </section>
+
+        <!-- Topic 3: Scientific Notation & Radicals -->
+        <section id="topic3" class="lesson-card">
+            <div class="lesson-header">
+                <h2>Topic 3: Scientific Notation & Radicals</h2>
+                <span class="difficulty">Application Skills</span>
+            </div>
+
+            <div class="lesson-content">
+                <div class="concept-box">
+                    <h3>Scientific Notation</h3>
+                    <p>Scientific notation is used to write very large or very small numbers in a compact form:</p>
+                    <p class="big-formula">a × 10<sup>n</sup> where 1 ≤ a < 10</p>
+
+                    <div class="two-column">
+                        <div class="column">
+                            <h4>Large Numbers (Positive Exponent)</h4>
+                            <p>4,500,000 = 4.5 × 10<sup>6</sup></p>
+                            <p class="tip">Count how many places you move the decimal LEFT</p>
+                        </div>
+                        <div class="column">
+                            <h4>Small Numbers (Negative Exponent)</h4>
+                            <p>0.000072 = 7.2 × 10<sup>-5</sup></p>
+                            <p class="tip">Count how many places you move the decimal RIGHT</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-skill">
+                    <h3>Key Skill: Operations with Scientific Notation</h3>
+                    <div class="example-box">
+                        <p><strong>Multiply:</strong> (4 × 10<sup>5</sup>) × (3 × 10<sup>-2</sup>)</p>
+                        <div class="solution">
+                            <p>Step 1: Multiply the coefficients: 4 × 3 = 12</p>
+                            <p>Step 2: Add the exponents: 5 + (-2) = 3</p>
+                            <p>Step 3: Combine: 12 × 10<sup>3</sup></p>
+                            <p>Step 4: Adjust to proper form: 1.2 × 10<sup>4</sup></p>
+                            <p class="answer">Answer: 1.2 × 10<sup>4</sup></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>Simplifying Radicals (Square Roots)</h3>
+                    <p>To simplify a square root, find the largest perfect square factor:</p>
+
+                    <div class="example-box">
+                        <p><strong>Simplify:</strong> √72</p>
+                        <div class="solution">
+                            <p>Step 1: Find the largest perfect square that divides 72</p>
+                            <p>72 = 36 × 2 (36 is a perfect square!)</p>
+                            <p>Step 2: Split the radical: √72 = √36 × √2</p>
+                            <p>Step 3: Simplify: √36 = 6</p>
+                            <p class="answer">Answer: 6√2</p>
+                        </div>
+                    </div>
+
+                    <div class="perfect-squares">
+                        <h4>Perfect Squares to Memorize:</h4>
+                        <p>1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144</p>
+                    </div>
+                </div>
+
+                <div class="video-section">
+                    <h3>Watch & Learn</h3>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <h4>Scientific Notation Explained</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/i6lfVUp5RW8" title="Scientific Notation" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Math Antics: Fun explanation of scientific notation</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Multiplying/Dividing Scientific Notation</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/497oIjqRPco" title="Operations with Scientific Notation" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: How to multiply and divide in scientific notation</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Simplifying Square Roots</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/GjiA0nGYlLM" title="Simplifying Square Roots" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Step-by-step guide to simplifying square roots and radicals</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practice-tips">
+                    <h3>Quick Tips!</h3>
+                    <ul>
+                        <li>In scientific notation, the coefficient must be between 1 and 10</li>
+                        <li>When multiplying: multiply coefficients, ADD exponents</li>
+                        <li>When dividing: divide coefficients, SUBTRACT exponents</li>
+                        <li>For radicals: always look for the LARGEST perfect square factor</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="goToTopic(2)">← Previous</button>
+                <button class="nav-btn" onclick="goToTopic(4)">Next: Expressions →</button>
+            </div>
+        </section>
+
+        <!-- Topic 4: Equivalent Expressions -->
+        <section id="topic4" class="lesson-card">
+            <div class="lesson-header">
+                <h2>Topic 4: Equivalent Expressions</h2>
+                <span class="difficulty">Algebra Foundations</span>
+            </div>
+
+            <div class="lesson-content">
+                <div class="concept-box">
+                    <h3>Factoring with GCF</h3>
+                    <p>Factoring means finding what's common and pulling it out:</p>
+
+                    <div class="example-box">
+                        <p><strong>Factor:</strong> 12x + 18</p>
+                        <div class="solution">
+                            <p>Step 1: Find the GCF of 12 and 18</p>
+                            <p>12 = 2 × 2 × 3 and 18 = 2 × 3 × 3</p>
+                            <p class="highlight">GCF = 2 × 3 = 6</p>
+                            <p>Step 2: Divide each term by 6</p>
+                            <p>12x ÷ 6 = 2x and 18 ÷ 6 = 3</p>
+                            <p class="answer">Answer: 6(2x + 3)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>The Distributive Property</h3>
+                    <p>Distributing means multiplying the outside term by EACH term inside:</p>
+                    <p class="formula">a(b + c) = ab + ac</p>
+
+                    <div class="example-box">
+                        <p><strong>Expand:</strong> 3(2x - 5) + 4(x + 2)</p>
+                        <div class="solution">
+                            <p>Step 1: Distribute 3: 3(2x - 5) = 6x - 15</p>
+                            <p>Step 2: Distribute 4: 4(x + 2) = 4x + 8</p>
+                            <p>Step 3: Combine like terms: 6x + 4x = 10x and -15 + 8 = -7</p>
+                            <p class="answer">Answer: 10x - 7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>FOIL Method (Multiplying Binomials)</h3>
+                    <p>FOIL stands for: <strong>F</strong>irst, <strong>O</strong>uter, <strong>I</strong>nner, <strong>L</strong>ast</p>
+
+                    <div class="example-box">
+                        <p><strong>Multiply:</strong> (x + 4)(x - 3)</p>
+                        <div class="solution">
+                            <p><strong>F</strong>irst: x · x = x<sup>2</sup></p>
+                            <p><strong>O</strong>uter: x · (-3) = -3x</p>
+                            <p><strong>I</strong>nner: 4 · x = 4x</p>
+                            <p><strong>L</strong>ast: 4 · (-3) = -12</p>
+                            <p>Combine: x<sup>2</sup> - 3x + 4x - 12</p>
+                            <p class="answer">Answer: x<sup>2</sup> + x - 12</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-section">
+                    <h3>Watch & Learn</h3>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <h4>Factoring Using GCF</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/3RJlPvX-3vg" title="Factoring GCF" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: How to factor out the greatest common factor</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Distributive Property</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/v-6MShC82ow" title="Distributive Property" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Math Antics: Visual explanation of the distributive property</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>FOIL Method</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/Axv7cqezipY" title="FOIL Method" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Brian McLogan: Master the FOIL method for multiplying binomials</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practice-tips">
+                    <h3>Remember!</h3>
+                    <ul>
+                        <li>Factoring and distributing are OPPOSITE operations</li>
+                        <li>Always look for the GREATEST common factor, not just any common factor</li>
+                        <li>When using FOIL, don't forget to combine like terms at the end!</li>
+                        <li>Check your work by distributing your factored answer - you should get back the original</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="goToTopic(3)">← Previous</button>
+                <button class="nav-btn" onclick="goToTopic(5)">Next: Equations →</button>
+            </div>
+        </section>
+
+        <!-- Topic 5: Equations & Inequalities -->
+        <section id="topic5" class="lesson-card">
+            <div class="lesson-header">
+                <h2>Topic 5: Equations & Inequalities</h2>
+                <span class="difficulty">Problem Solving</span>
+            </div>
+
+            <div class="lesson-content">
+                <div class="concept-box">
+                    <h3>Solving Multi-Step Equations</h3>
+                    <p>Goal: Get the variable ALONE on one side!</p>
+
+                    <div class="example-box">
+                        <p><strong>Solve:</strong> 3(x - 2) + 4 = 2x + 5</p>
+                        <div class="solution">
+                            <p>Step 1: Distribute: 3x - 6 + 4 = 2x + 5</p>
+                            <p>Step 2: Combine like terms: 3x - 2 = 2x + 5</p>
+                            <p>Step 3: Get x terms on one side: 3x - 2x = 5 + 2</p>
+                            <p class="answer">Answer: x = 7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>Special Cases: No Solution vs Infinite Solutions</h3>
+
+                    <div class="two-column">
+                        <div class="column">
+                            <h4>No Solution</h4>
+                            <p>When you get a FALSE statement like:</p>
+                            <p class="highlight">0 = 5 or 3 = 7</p>
+                            <p>This means NO value of x works!</p>
+                        </div>
+                        <div class="column">
+                            <h4>Infinite Solutions</h4>
+                            <p>When you get a TRUE statement like:</p>
+                            <p class="highlight">0 = 0 or 5 = 5</p>
+                            <p>This means ALL values of x work!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>Solving Inequalities</h3>
+                    <p>Inequalities are like equations, but with ONE crucial difference:</p>
+                    <div class="warning-box">
+                        <strong>FLIP THE SIGN</strong> when you multiply or divide by a NEGATIVE number!
+                    </div>
+
+                    <div class="example-box">
+                        <p><strong>Solve:</strong> -2x + 5 > 11</p>
+                        <div class="solution">
+                            <p>Step 1: Subtract 5 from both sides: -2x > 6</p>
+                            <p>Step 2: Divide by -2 AND FLIP THE SIGN!</p>
+                            <p class="answer">Answer: x < -3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <h3>Solving x<sup>2</sup> = k and x<sup>3</sup> = k</h3>
+
+                    <div class="two-column">
+                        <div class="column">
+                            <h4>Quadratic: x<sup>2</sup> = k</h4>
+                            <p>x<sup>2</sup> = 81</p>
+                            <p>x = ±√81</p>
+                            <p class="highlight">x = 9 or x = -9</p>
+                            <p class="tip">Remember BOTH solutions!</p>
+                        </div>
+                        <div class="column">
+                            <h4>Cubic: x<sup>3</sup> = k</h4>
+                            <p>x<sup>3</sup> = -27</p>
+                            <p>x = ∛(-27)</p>
+                            <p class="highlight">x = -3</p>
+                            <p class="tip">Cube roots CAN be negative!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-section">
+                    <h3>Watch & Learn</h3>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <h4>Solving Multi-Step Equations</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/LDIiYKYvvdA" title="Multi-Step Equations" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: How to solve equations with variables on both sides</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>Solving Inequalities</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/xOxvyeSl0uA" title="Solving Inequalities" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Math Antics: When and why to flip the inequality sign</p>
+                        </div>
+                        <div class="video-card">
+                            <h4>No Solution vs Infinite Solutions</h4>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/xKH1Evwu150" title="No Solution and Infinite Solutions" allowfullscreen></iframe>
+                            </div>
+                            <p class="video-desc">Khan Academy: Understanding special equation cases</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practice-tips">
+                    <h3>Key Reminders!</h3>
+                    <ul>
+                        <li>Always check your answer by plugging it back into the original equation!</li>
+                        <li>FLIP the inequality sign when multiplying/dividing by NEGATIVE numbers</li>
+                        <li>x<sup>2</sup> = k gives TWO solutions (±)</li>
+                        <li>x<sup>3</sup> = k gives ONE solution (can be negative)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="goToTopic(4)">← Previous</button>
+                <button class="nav-btn ready-btn" onclick="goToReview()">Ready for the Review!</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
