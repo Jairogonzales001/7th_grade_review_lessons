@@ -54,5 +54,5 @@ function updateProgress() {
 
 // Navigate to the review quiz
 function goToReview() {
-    window.location.href = 'https://7th-math-review.netlify.app/';
+    window.location.href = 'https://7-math-review-2.netlify.app/';
 }
